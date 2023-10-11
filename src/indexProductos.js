@@ -1,14 +1,14 @@
 import React from 'react'
 import NavBar from './layout/Navbar';
-import Login from './components/Login'
+import Productos from './components/Products';
 
-function App() {
+function AppProductos() {
   return (
     <div className='container-fluid'>
       <NavBar/>
-      <Login/>
+      <Productos/>
     </div>
   );
 }
 
-export default App;
+export default AppProductos;
